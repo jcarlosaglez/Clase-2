@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container-padre {
+    margin: 40px 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+}
+
+.header-container-padre > *{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+}
+
+.menu-item {
+    display: inline;
+    margin: 0 25px;
+}
+
+.menu-item a {
+    color: #025157;
+    text-decoration: none;
+}
+
+.actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+}
+
+.actions > * {
+    margin: 0 10px;
+}
+
+.actions a {
+    color: #025157;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+main {
+    font-size: 0;
+    height: 150px;
+}
+
+main > div {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main > div section {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    height: 100%;
+}
+
+main > div .container-title {
+    width: 60%;
+}
+
+main > div .container-img {
+    width: 40%;
+}
+
+.footer-container-padre {
+    margin: 40px 20px 0;
+}
